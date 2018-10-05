@@ -97,7 +97,6 @@ if ($ADMIN->fulltree) {
         get_string('framemo_desc', 'filter_multiembed'),
         1));
 
-
     $settings->add(new admin_setting_configcheckbox('filter_multiembed/gdocs',
         get_string('gdocs', 'filter_multiembed'),
         get_string('gdocs_desc', 'filter_multiembed'),
